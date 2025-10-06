@@ -1,0 +1,19 @@
+{
+  "name": "goit-js-hw-9-localstorage",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /nw-goit-js-08-json/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.0",
+    "parcel-transformer-hbs": "^1.0.4"
+  }
+}
