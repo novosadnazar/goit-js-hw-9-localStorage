@@ -1,13 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Контакти</title>
+<link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <ul class="contact-list"></ul>
+    <div class="box">
+  <h1>Контакти</h1>
+
+  <div class="contact-form">
+    <input id="name" placeholder="Ім'я" />
+    <input id="surname" placeholder="Прізвище" />
+    <input id="phone" placeholder="Телефон" />
+    <input id="email" placeholder="Email" />
+    <button id="addBtn">Додати</button>
+  </div>
+
+  <ul id="contactList"></ul>
+</div>
     <script type="module" src="./app.js"></script>
 </body>
 </html>
